@@ -21,22 +21,22 @@ return [
             'access_token' => 'access_token',
         ]
     ],
-    'relation' => [
+	'relation' => [
         //铺货相关
         'Cross\Param\ProductInfo' => 'com.alibaba.product:alibaba.cross.productInfo-1',//跨境场景获取商品详情
         'Cross\Param\ProductPushed' => 'com.alibaba.product.push:alibaba.cross.syncProductListPushed-1',//跨境场景下将商品加入铺货列表
 //        '' => 'com.alibaba.product.push:alibaba.product.push.syncPushProductResult-1',//同步铺货结果
-        'Cross\Param\productIdList' => 'com.alibaba.product:alibaba.cross.productList-1',//跨境场景获取商品列表
+        'Cross\Param\ProductList' => 'com.alibaba.product:alibaba.cross.productList-1',//跨境场景获取商品列表
         'Cross\Param\ProductUnFollow' => 'com.alibaba.product:alibaba.product.unfollow.crossborder-1',//解除关注商品
-        //交易相关
-        'Cross\Param\ProductInfo' => 'com.alibaba.product:alibaba.cross.productInfo-1',//跨境订单创建
-        'Cross\Param\ProductInfo' => 'com.alibaba.product:alibaba.cross.productInfo-1',//订单详情查看(买家视角)
-        'Cross\Param\ProductInfo' => 'com.alibaba.product:alibaba.cross.productInfo-1',//获取交易订单的物流信息(买家视角)
-        'Cross\Param\ProductInfo' => 'com.alibaba.product:alibaba.cross.productInfo-1',//获取交易订单的物流跟踪信息(买家视角)
-        'Cross\Param\ProductInfo' => 'com.alibaba.product:alibaba.cross.productInfo-1',//取消交易
-        'Cross\Param\ProductInfo' => 'com.alibaba.product:alibaba.cross.productInfo-1',//订单列表查看(买家视角)
-        'Cross\Param\ProductInfo' => 'com.alibaba.product:alibaba.cross.productInfo-1',//创建订单前预览数据接口
-        'Cross\Param\ProductInfo' => 'com.alibaba.product:alibaba.cross.productInfo-1',//修改订单备忘
+        //交易相关6
+        'Cross\Param\CreateCrossOrder' => 'com.alibaba.trade:alibaba.trade.createCrossOrder-1',//跨境订单创建
+        'Cross\Param\ProductInfo1' => 'com.alibaba.product:alibaba.cross.productInfo-1',//订单详情查看(买家视角)
+        'Cross\Param\ProductInfo2' => 'com.alibaba.product:alibaba.cross.productInfo-1',//获取交易订单的物流信息(买家视角)
+        'Cross\Param\ProductInfo3' => 'com.alibaba.product:alibaba.cross.productInfo-1',//获取交易订单的物流跟踪信息(买家视角)
+        'Cross\Param\ProductInfo4' => 'com.alibaba.product:alibaba.cross.productInfo-1',//取消交易
+        'Cross\Param\ProductInfo5' => 'com.alibaba.product:alibaba.cross.productInfo-1',//订单列表查看(买家视角)
+        'Cross\Param\ProductInfo6' => 'com.alibaba.product:alibaba.cross.productInfo-1',//创建订单前预览数据接口
+        'Cross\Param\ProductInfo7' => 'com.alibaba.product:alibaba.cross.productInfo-1',//修改订单备忘
     ]
 
 ];

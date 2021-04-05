@@ -27,7 +27,9 @@ class ProductUnFollow extends IParam
 
     public function toArray()
     {
-        return get_object_vars($this);
+        return [
+            'productId' => json_encode($this->productId)
+        ];
     }
 
 }
