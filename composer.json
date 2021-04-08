@@ -14,17 +14,16 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "app/",
-            "Cross\\": "veebisait/cross-alibaba/src"
+            "Cross\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "\\Cross\\AlibabaProvider"
+                "Cross\\AlibabaProvider"
             ],
             "aliases": {
-                "Alibaba": "\\Cross\\Facades\\Alibaba"
+                "Alibaba": "Cross\\Facades\\Alibaba"
             }
         }
     }
