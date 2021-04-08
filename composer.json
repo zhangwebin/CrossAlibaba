@@ -14,10 +14,10 @@
     },
     "autoload": {
         "psr-4": {
-            "Cross\\": "veebisait/cross-alibaba/src/"
+            "Cross\\": "src/"
         },
         "classmap": [
-            "veebisait/cross-alibaba/src/"
+            "src/"
         ]
     },
     "extra": {
