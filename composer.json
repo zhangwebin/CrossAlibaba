@@ -9,5 +9,7 @@
             "email": "wb_zhang@sina.cn"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "^7.2.5|^8.0"
+    }
 }
