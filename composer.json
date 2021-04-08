@@ -15,7 +15,10 @@
     "autoload": {
         "psr-4": {
             "Cross\\": "src/"
-        }
+        },
+        "classmap": [
+            "src"
+        ]
     },
     "extra": {
         "laravel": {
