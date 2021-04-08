@@ -15,7 +15,10 @@
     "autoload": {
         "psr-4": {
             "Cross\\": "veebisait/cross-alibaba/src/"
-        }
+        },
+        "classmap": [
+            "veebisait/cross-alibaba/src/"
+        ]
     },
     "extra": {
         "laravel": {
@@ -26,5 +29,10 @@
                 "Alibaba": "Cross\\Facades\\Alibaba"
             }
         }
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "@php artisan package:discover --ansi"
+        ]
     }
 }
