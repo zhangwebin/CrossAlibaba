@@ -1,0 +1,13 @@
+{
+    "name": "veebisait/cross-alibaba",
+    "description": "Veebisait/CrossAlibaba",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Robin",
+            "email": "wb_zhang@sina.cn"
+        }
+    ],
+    "require": {}
+}

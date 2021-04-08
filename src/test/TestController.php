@@ -1,7 +1,8 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Cross\test;
 
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Cross\Param\ProductInfo;
 use Cross\Param\ProductPushed;

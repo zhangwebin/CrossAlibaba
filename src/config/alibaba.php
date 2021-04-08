@@ -21,7 +21,7 @@ return [
             'access_token' => 'access_token',
         ]
     ],
-	'relation' => [
+    'relation' => [
         //铺货相关
         'Cross\Param\ProductInfo' => 'com.alibaba.product:alibaba.cross.productInfo-1',//跨境场景获取商品详情
         'Cross\Param\ProductPushed' => 'com.alibaba.product.push:alibaba.cross.syncProductListPushed-1',//跨境场景下将商品加入铺货列表
