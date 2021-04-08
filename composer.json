@@ -15,10 +15,7 @@
     "autoload": {
         "psr-4": {
             "Cross\\": "src/"
-        },
-        "classmap": [
-            "src/"
-        ]
+        }
     },
     "extra": {
         "laravel": {
@@ -29,10 +26,5 @@
                 "Alibaba": "Cross\\Facades\\Alibaba"
             }
         }
-    },
-    "scripts": {
-        "post-autoload-dump": [
-            "@php artisan package:discover --ansi"
-        ]
     }
 }
