@@ -55,7 +55,7 @@ class Alibaba
             array_walk($factorArr, function (&$item, $key) {
                 $item = $key . '=' . urlencode($item);
             });
-            $data['query'] = implode('&', $factorArr);
+            $data['query'] = $factorArr;
             return $data;
         }
         return false;
