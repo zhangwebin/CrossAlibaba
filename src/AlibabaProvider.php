@@ -3,6 +3,7 @@
 namespace Cross;
 
 use Illuminate\Support\ServiceProvider;
+use Cross\Alibaba;
 
 class AlibabaProvider extends ServiceProvider
 {
